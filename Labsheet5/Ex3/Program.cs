@@ -18,9 +18,14 @@ class Program
             Console.WriteLine($"Area of Rectangle 1 is {r1Area}");
         }
 
-        else if (r1Perimeter < r1Perimeter)
+        else if (r1Perimeter < r2Perimeter)
         {
             Console.WriteLine($"Area of Rectangle 2 is {r2Area}");
+        }
+
+        else
+        {
+            Console.WriteLine("Something went wrong");
         }
 
 
