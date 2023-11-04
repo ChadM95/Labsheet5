@@ -6,10 +6,10 @@ namespace Labsheet5
 		//properties
 		public string Name { get; set; }
 		public string Course { get; set; }
-		public int GPA { get; set; }
+		public double GPA { get; set; }
 
 		//constructor
-		public Student(string name, string course, int gpa)
+		public Student(string name, string course, double gpa)
 		{
 			Name = name;
 			Course = course;
@@ -22,10 +22,10 @@ namespace Labsheet5
 			return $"{Name} {Course} {GPA}";
         }
 
-		//Regular Method
-		public static int AdjustGPA(int percentage)
+		//Method
+		public void AdjustGPA(double percentage)
 		{
-			return GPA (percentage / 100); 
+			GPA = GPA + (1 + percentage);
 		}
     }
 }
