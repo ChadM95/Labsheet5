@@ -17,6 +17,11 @@ namespace Ex2
 			OverdraftLimit = overdraftLimit;
 		}
 
+		//method
+		public void PrintDetails()
+		{
+			Console.WriteLine($"{AccNo} {Balance} {OverdraftLimit}");
+		}
 
 
 	}
