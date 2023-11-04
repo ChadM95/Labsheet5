@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/Chad/ATU/OOSD1/Labsheet5/Labsheet5/Labsheet5/Labsheet5/Ex1.csproj",
-      "projectName": "Ex1",
-      "projectPath": "/Users/Chad/ATU/OOSD1/Labsheet5/Labsheet5/Labsheet5/Labsheet5/Ex1.csproj",
+      "projectUniqueName": "/Users/Chad/ATU/OOSD1/Labsheet5/Labsheet5/Labsheet5/Ex2/Ex2.csproj",
+      "projectName": "Ex2",
+      "projectPath": "/Users/Chad/ATU/OOSD1/Labsheet5/Labsheet5/Labsheet5/Ex2/Ex2.csproj",
       "packagesPath": "/Users/Chad/.nuget/packages/",
-      "outputPath": "/Users/Chad/ATU/OOSD1/Labsheet5/Labsheet5/Labsheet5/Labsheet5/obj/",
+      "outputPath": "/Users/Chad/ATU/OOSD1/Labsheet5/Labsheet5/Labsheet5/Ex2/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/Chad/.nuget/NuGet/NuGet.Config"
