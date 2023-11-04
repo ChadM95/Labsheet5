@@ -23,14 +23,14 @@ namespace Ex2
 			Console.WriteLine($"{AccNo} {Balance} {OverdraftLimit}");
 		}
 
-		public int Deposit(int deposit)
+		public void Deposit(int deposit)
 		{
-			return Balance + deposit;
+			Balance = Balance + deposit;
 		}
 
-		public int Withdraw(int withdrawal)
+		public void Withdraw(int withdrawal)
 		{
-			return Balance - withdrawal;
+			Balance = Balance - withdrawal;
 		}
 
 	}

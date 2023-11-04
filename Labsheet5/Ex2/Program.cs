@@ -12,6 +12,18 @@ class Program
 
         B2.PrintDetails();
 
+        B1.Deposit(10000);
+        B2.Deposit(5000);       
+
+        B1.PrintDetails();
+        B2.PrintDetails();
+
+        B1.Withdraw(2000);
+        B2.Withdraw(500);
+
+        B1.PrintDetails();
+        B2.PrintDetails();
+
         Console.ReadLine();
     }
 }
