@@ -17,12 +17,21 @@ namespace Ex2
 			OverdraftLimit = overdraftLimit;
 		}
 
-		//method
+		//methods
 		public void PrintDetails()
 		{
 			Console.WriteLine($"{AccNo} {Balance} {OverdraftLimit}");
 		}
 
+		public int Deposit(int deposit)
+		{
+			return Balance + deposit;
+		}
+
+		public int Withdraw(int withdrawal)
+		{
+			return Balance - withdrawal;
+		}
 
 	}
 }
