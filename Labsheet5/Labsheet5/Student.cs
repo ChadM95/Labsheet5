@@ -14,6 +14,11 @@ namespace Labsheet5
 			Course = course;
 			GPA = gpa;
 		}
-	}
+
+        public override string ToString()
+        {
+			return $"{Name} {Course} {GPA}";
+        }
+    }
 }
 
